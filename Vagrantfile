@@ -68,10 +68,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.json = {
+      postgresql: {
+        password: {
+          postgres: "password"
+        },
+        version: '9.3'
+      }
     }
 
     chef.run_list = [
-        "recipe[rails-geo::default]"
+      "recipe[rails-geo::default]"
     ]
   end
 end

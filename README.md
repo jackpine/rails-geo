@@ -1,10 +1,12 @@
 # rails-geo-cookbook
 
-TODO: Enter the cookbook description here.
+Let's make it a delight to spin up a modern batteries-included
+Ruby/Rails platform suitable for developing and hosting GeoSpatial
+applicaions.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+# ubuntu
 
 ## Attributes
 
@@ -48,4 +50,4 @@ Include `rails-geo` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Michael Kirk (<michael.john.kirk@gmail.com>)

@@ -1,8 +1,4 @@
-#
-# Cookbook Name:: rails-geo
-# Recipe:: default
-#
-# Copyright (C) 2014 YOUR_NAME
-#
-# All rights reserved - Do Not Redistribute
-#
+include_recipe 'postgis::default'
+
+include_recipe 'rbenv::default'
+include_recipe 'rbenv::ruby_build'
